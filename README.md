@@ -10,6 +10,7 @@ Sample usage:
 ```c#
 var codeColorizer = Colorizer.Colorize(sourceCode)
                              .WithTheme(new ObsidianTheme())
-                             .WithLanguage(new Csharp());
+                             .WithLanguage(new Csharp())
+                             .AddLineNumbers();
 var html = codeColorizer.ToHtml();
 ```
