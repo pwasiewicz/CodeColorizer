@@ -60,6 +60,7 @@
     <Compile Include="Extensions\Language.cs" />
     <Compile Include="ICodeColorizer.cs" />
     <Compile Include="Language\ILanguage.cs" />
+    <Compile Include="Language\Languages\Php.cs" />
     <Compile Include="Language\PreProcessing\IPreProcessedLanguage.cs" />
     <Compile Include="Language\PreProcessing\IPreProcessedRules.cs" />
     <Compile Include="Language\Languages\Csharp.cs" />
