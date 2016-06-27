@@ -69,12 +69,6 @@
     <Compile Include="CodeColorizerTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CodeColorizer\CodeColorizer.csproj">
-      <Project>{fabeb96d-50fe-4493-a3a8-39612b476d45}</Project>
-      <Name>CodeColorizer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>
